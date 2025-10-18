@@ -28,6 +28,6 @@ resource "azurerm_storage_account" "example" {
   account_replication_type = "LRS"
 
   tags = {
-    environment = "staging"
+    environment = "test"
   }
 }
