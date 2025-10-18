@@ -1,0 +1,16 @@
+# Terraform local state and providers
+.terraform/
+.terraform/*
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+
+# Backup files
+*.tfvars.bck
+*.tfplan.bck
+
+# Local variables and scripts
+# These files should not be committed.
+*.tfvars
+var.sh
+*.sh
